@@ -22,7 +22,7 @@ a {
 
 a:hover {
     opacity: 0.5;
-    color: var(--color-white);
+    color: var(--color-blue);
 }
 
 .logo {
@@ -87,7 +87,11 @@ main {
         align-items: center;
         justify-content: space-around;
         transform: translateX(100%);
+        text-transform: uppercase;
         transition: transform 0.3s ease-in;
+    }
+    .nav-list:hover{
+        color: var(--color-blue);
     }
 
     .nav-list li {
