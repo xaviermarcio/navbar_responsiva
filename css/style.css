@@ -5,18 +5,24 @@
 }
 
 :root {
+    
     --color-black: #23232e;
     --color-white: #fff;
+    --color-blue: #37bac7;
+    --color-green: #15474c;
+    --color-green2: #4c9484;
+    --color-gray: #b4c5d9;
 }
 
 a {
-    color: var(--color-white);
+    color: var(--color-blue);
     text-decoration: none;
     transition: 0.3;
 }
 
 a:hover {
-    opacity: 0.7;
+    opacity: 0.5;
+    color: var(--color-white);
 }
 
 .logo {
@@ -53,12 +59,13 @@ main {
 .mobile-menu {
     display: none;
     cursor: pointer;
+    background: var(--color-green2);
 }
 
 .mobile-menu div {
     width: 32px;
     height: 2px;
-    background: var(--color-white);
+    background: var(--color-green);
     margin: 8px;
 }
 
@@ -74,7 +81,8 @@ main {
         right: 0;
         width: 50vw;
         height: 92vh;
-        background: #23232e;
+        color: var(--color-white);
+        background: var(--color-green);
         flex-direction: column;
         align-items: center;
         justify-content: space-around;
